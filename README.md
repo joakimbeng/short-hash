@@ -22,6 +22,7 @@ npm install --save short-hash
 var shortHash = require('short-hash');
 
 shortHash('a string to hash...');
+// "5e687236"
 ```
 
 ## API
