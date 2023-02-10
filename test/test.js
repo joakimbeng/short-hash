@@ -1,6 +1,6 @@
 'use strict';
 var test = require('tape');
-var shortHash = require('../src');
+var shortHash = require('../');
 
 test('shortHash generates a small hash from a string', function (assert) {
   var str = 'Lorem ipsum dolor sit amet, et nec eros partem integre, ' +
