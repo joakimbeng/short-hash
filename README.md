@@ -27,13 +27,14 @@ shortHash('a string to hash...');
 
 ## API
 
-### `shortHash(str)`
+### `shortHash(input, [base])`
 
-| Name | Type | Description |
-|------|------|-------------|
-| str | `String` | The string to hash |
+| Name   | Type     | Description        |
+| ------ | -------- | ------------------ |
+| input  | `String` | The string to hash |
+| [base] | `String` | The string to hash |
 
-Returns: `String`, a hexadecimal string.
+Returns: `String`, a hash of any string with the provided base.
 
 ## License
 
