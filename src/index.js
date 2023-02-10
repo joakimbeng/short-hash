@@ -1,6 +1,6 @@
 'use strict';
 var hash = require('hash-string');
 
-module.exports = function shortHash(str) {
-  return hash(str).toString(16);
+module.exports = function shortHash(str, base) {
+  return hash(str).toString(base || 16);
 };
